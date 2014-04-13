@@ -1,0 +1,13 @@
+html, body { font-family:"Trebuchet MS", Arial, Tahoma; text-align: center; min-height:100%; padding:0; margin:0; background-color:#fbfbf9 !important; }
+
+
+#wrapper {  padding: 100px 0; position:absolute; top:0; bottom:0; left:0; right:0; min-height: 510px }
+
+#main {  min-width: 980px; max-width: 1200px; background: #FFF; min-height:100%; background-color: #fbfbf9; display: inline-block !important; position: relative; }
+
+#main #main_content { border: 1px #CCCCCC solid; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; width: 920px; height: 500px; margin: 30px auto; background-color: #FFFFFF }
+#main #main_content #content { margin: 30px 0 }
+#main #main_content #content #content_img { margin: 30px; float:left; background-image: url('../../../assets/images/img_miner_404.jpg'); background-repeat: no-repeat; width: 300px; height:323px; }
+#main #main_content #content #content_img_right { float: left; margin: 70px 0 0 50px }
+#main #main_content #content #content_img_right #text_error_sup { font-family: Arial, sans-serif; color: rgb(201, 201, 201); font-size: 80px; background-color: rgb(255, 255, 255); text-shadow: rgb(117, 117, 117) 3px 2px 4px; float:left; }
+#main #main_content #content #content_img_right #text_error_inf { font-family: Arial, sans-serif; color: rgb(117, 117, 117); font-size: 20px; background-color: rgb(255, 255, 255); text-shadow: rgb(184, 165, 165) 2px 2px 3px; float: left; margin: 10px 0 0 50px }

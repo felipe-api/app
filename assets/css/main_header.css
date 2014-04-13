@@ -1,0 +1,22 @@
+/* ----------------------------------------------------------------------------- */
+/*  1.  Header
+/* ----------------------------------------------------------------------------- */
+
+*{ margin: 0; padding: 0; }
+
+#header { background: #f9f9f9; height:100px; position: absolute; min-width: 100%; z-index: 999; top: 0; background-color: #0085c3; }
+
+.header_floating { background: #f9f9f9; height:100px; position: fixed; width: 100%; z-index: 999; top: 0; background-color: #0085c3; 
+				   -webkit-box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.75); -moz-box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.75); box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.75); }
+
+#header #logo { float:left; width:205px; position:absolute; top:0; padding:40px 0 20px 0; }
+
+#header #search_container { background-color: #FFF; height: 40px; width: 501px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; position:absolute; left:50%; margin:40px 0 0 -250px;/* margin: 40px auto;*/ }
+#header .search_container_focus { -webkit-box-shadow: 0px 0px 1px 0px rgba(0,0,0,1); -moz-box-shadow: 0px 0px 1px 0px rgba(0,0,0,1); box-shadow: 0px 0px 1px 0px rgba(0,0,0,1); }
+#header #search_container .barSearch { height: 25px; width: 425px; margin: 5px 0 0 3px; padding: 5px 5px; font-size: 17px; border: 0; float:left}
+#header #search_container .barSearch:focus { outline: none; } 
+#header #search_container .btnSearch { height: 36px; width:61px; background: #0085c3 url('../images/ico_search_header.png') no-repeat 17px 4px; background-size: 28px 28px; border:0; margin: 2px 2px 3px 0; float:right; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
+#header #search_container .btnSearch:hover { background-color: #4cbeff; cursor: pointer }
+#header #search_container .btnSearch:active { background-color: #0060a3; }
+
+#header #access_menu { width:225px; float:right; padding:30px 0; height:40px; }
