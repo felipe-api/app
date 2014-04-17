@@ -1,0 +1,279 @@
+/*!
+PureCustom v0.3.0
+Copyright 2013 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+https://github.com/yui/pure/blob/master/LICENSE.md
+*/
+
+/* Button Custon Colors */
+.pure-button-success,
+.pure-button-error,
+.pure-button-warning,
+.pure-button-secondary {
+	color: white;
+	border-radius: 4px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.pure-button-success {
+	background: rgb(28, 184, 65); /* this is a green */
+}
+
+.pure-button-error {
+	background: rgb(202, 60, 60); /* this is a maroon */
+}
+
+.pure-button-warning {
+	background: rgb(223, 117, 20); /* this is an orange */
+}
+
+.pure-button-secondary {
+	background: rgb(66, 184, 221); /* this is a light blue */
+}
+
+
+
+/* Button Custon Colors : Active */
+.pure-button-primary:active { background-color: #2b70ad !important; }
+.pure-button-success:active { background-color: #328a46 !important; }
+.pure-button-error:active { background-color: #984848 !important; }
+.pure-button-warning:active { background-color: #a76c35 !important; }
+.pure-button-secondary:active { background-color: #4f90a6 !important; }
+
+
+
+/* Button Custon Size */
+.pure-button-xsmall {
+	font-size: 70%;
+}
+
+.pure-button-small {
+	font-size: 85%;
+}
+
+.pure-button-large {
+	font-size: 110%;
+}
+
+.pure-button-xlarge {
+	font-size: 125%;
+}
+
+
+
+
+
+/* Sobrescrita - Remove pontilhado q fica ao redor */
+	textarea:hover, 
+	input[type="text"]:hover,
+	input[type="password"]:hover,
+	input[type="datetime"]:hover,
+	input[type="datetime-local"]:hover,
+	input[type="date"]:hover,
+	input[type="month"]:hover,
+	input[type="time"]:hover,
+	input[type="week"]:hover,
+	input[type="number"]:hover,
+	input[type="email"]:hover,
+	input[type="url"]:hover,
+	input[type="search"]:hover,
+	input[type="tel"]:hover,
+	input[type="color"]:hover,
+	.uneditable-input:hover, 
+		textarea:active, 
+		input[type="text"]:active,
+		input[type="password"]:active,
+		input[type="datetime"]:active,
+		input[type="datetime-local"]:active,
+		input[type="date"]:active,
+		input[type="month"]:active,
+		input[type="time"]:active,
+		input[type="week"]:active,
+		input[type="number"]:active,
+		input[type="email"]:active,
+		input[type="url"]:active,
+		input[type="search"]:active,
+		input[type="tel"]:active,
+		input[type="color"]:active,
+		.uneditable-input:active,
+	textarea:focus, 
+	input[type="text"]:focus,
+	input[type="password"]:focus,
+	input[type="datetime"]:focus,
+	input[type="datetime-local"]:focus,
+	input[type="date"]:focus,
+	input[type="month"]:focus,
+	input[type="time"]:focus,
+	input[type="week"]:focus,
+	input[type="number"]:focus,
+	input[type="email"]:focus,
+	input[type="url"]:focus,
+	input[type="search"]:focus,
+	input[type="tel"]:focus,
+	input[type="color"]:focus,
+	.uneditable-input:focus {
+    outline:0px !important;
+    -webkit-appearance:none !important;
+}
+
+
+
+
+/* Sobrescrita - Add Borda ao receber o foco  */
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+	/* border-color: rgba(255, 137, 0, 1) !important; - LARANJA*/
+	border-color: rgba(128, 128, 128, 1) !important;	
+}
+
+
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  display: inline-block;
+  height: 35px;
+  padding: 4px 6px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #555555;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+
+
+
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border linear .2s, box-shadow linear .2s;
+  -moz-transition: border linear .2s, box-shadow linear .2s;
+  -o-transition: border linear .2s, box-shadow linear .2s;
+  transition: border linear .2s, box-shadow linear .2s;
+}
+
+
+
+/* Input Text */
+.gp-input-text {
+	height: 30px !important; line-height: 30px !important;
+}
+
+.gp-input-text-25 {
+	height: 25px !important; line-height: 25px !important;
+}
+
+.gp-50 {
+	width: 50px !important;
+}
+
+.gp-100 {
+	width: 100px !important;
+}
+
+.gp-150 {
+	width: 150px !important;
+}
+
+.gp-200 {
+	width: 200px !important;
+}
+
+.gp-250 {
+	width: 250px !important;
+}
+
+.gp-300 {
+	width: 300px !important;
+}
+ 
+.gp-350 {
+	width: 350px !important;
+}
+ 
+
+/* CHECKBOX - RADIO */
+input[type="checkbox"] { position: absolute; left: -999em; }
+
+input[type="radio"] +  label, 
+input[type="checkbox"] +  label { cursor: pointer; }
+	
+input[type="radio"] + label:before, 
+input[type="checkbox"] + label:before { 
+	display: inline-block; position: relative; top:0.16em; left:-2px; 
+	content: ""; width:19px; height:19px;
+	background-image:url(../images/radio-checkbox.png);
+	cursor: pointer;
+}
+
+/* CHECKBOX */
+input[type="checkbox"] + label:before { background-position: 1px 112px; }
+input[type="checkbox"]:checked + label:before { background-position: 1px 94px; }
+
+/* CHECKBOX - DISABLE */
+input[type="checkbox"]:disabled + label:before { background-position: 21px 112px; }
+input[type="checkbox"]:disabled:checked + label:before { background-position: 21px 94px; }
+
+/* RADIO */	 
+input[type="radio"] + label:before { background-position: 1px 1px}	 	
+input[type="radio"]:checked + label:before { background-position: 1px -17px;}
+
+/* RADIO - DISABLE */	
+input[type="radio"]:disabled + label:before { background-position: 21px 1px}	 	
+input[type="radio"]:disabled:checked + label:before { background-position: 21px -17px;}
+
+	
+	/* Remove the custom styling for IE 8 */
+	.ie8 input[type="radio"] + label:before, .ie8 input[type="checkbox"] + label:before { display:none; content:none; }	
+	.ie8 input[type="checkbox"], .ie8 input[type="radio"]{ position: static; left: 0; }
+	.ie8 input[type="checkbox"], .ie8 input[type="radio"]{ position:relative; top:1px; margin-right:0.3em; }	
+	

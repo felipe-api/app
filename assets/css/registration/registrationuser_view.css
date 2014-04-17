@@ -1,0 +1,68 @@
+/* INÍCIO REGISTRATION*/
+html, body { font-family:"Trebuchet MS", Arial, Tahoma; text-align: center; min-height:100%; padding:0; margin:0; background-color:#fbfbf9 !important; }
+
+
+#wrapper {  padding: 100px 0; position:absolute; top:0; bottom:0; left:0; right:0; min-height: 760px }
+
+#main {  min-width: 980px; max-width: 1200px; background: #FFF; min-height:100%; background-color: #fbfbf9; display: inline-block !important; position: relative; }
+
+#main #main_content { border:1px #CCCCCC solid; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; width:600px; min-height: 600px; margin: 30px 0 0 30px; float:left; background-color:#FFFFFF }
+#main #main_content #form_register{ width:600px; min-height: 600px; float:left; }
+#main #main_content #form_register #register_pos { padding:0 0 0 20px; text-align:left }
+#main #main_content #form_register #register_label { display:inline-block; color:#333; font-size:20px; font-weight:bold; margin-bottom: 5px !important }
+#main #main_content #form_register #name_content { padding:20px 0 0 20px; text-align:left; float:left; width:270px; }
+#main #main_content #form_register #form_label { padding:5px 0 3px 0;display:block;font-size:14px !important;color:#555; font-family:Arial,Helvetica,sans-serif;font-size:small }
+#main #main_content #form_register #surname_content { padding:20px 0 0 20px; text-align:left; float:left }
+#main #main_content #form_register #email_content { padding:0 0 0 20px; text-align:left; clear:both }
+#main #main_content #form_register #login_content { padding:0 0 0 20px; text-align:left; }
+#main #main_content #form_register #pass_content { padding:0 0 0 20px; text-align:left; }
+#main #main_content #form_register #confpass_content { padding:0 0 0 20px; text-align:left; }
+#main #main_content #form_register #captcha_content { margin:10px 0 0 20px; padding:15px 10px 5px 0; border:1px solid #CCC; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; background-color:#F0F0F0; width:240px; height:50px }
+#main #main_content #form_register #captcha_msg { position:absolute !important }
+#main #main_content #form_register #btn_register { padding:20px 20px 25px 20px; text-align:left; margin: 15px 0 0 0 }
+#main #main_content #note { min-height: 350px; width:305px; float:left; }
+#main #main_content #note #note_line_one { margin: 35px 0 20px 0; padding:5px 0 3px 0;display:block; color:#999999; font-family: Arial, sans-serif; font-weight:bold; font-size: 36px; }
+#main #main_content #note #note_line_two { margin:10px 0 5px 0; display:block; color:#666666; font-family: Arial, sans-serif; font-size: 16px; }
+#main #main_content #note #note_line_three { padding:5px 0 3px 0;display:block; color:#999; font-family: Arial, sans-serif; font-size: 16px; }
+
+
+
+#menuContainer { border:0; width:200px; height:500px; float:left; top:120px }
+
+.menu { 
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	list-style:none;
+	width: 180px;
+	padding: 0 0 0 5px;
+}
+.menu .categories {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: #333;
+	display: block;
+	padding: 11px 38px 11px 0;
+	text-decoration: none;
+	text-align:left;
+	border-bottom: 1px #999999  solid;
+	border-width:1px;
+	font-weight:bold;
+	margin-bottom: 15px;
+}
+
+#main #menuContainer .menu li a {
+	display: block;
+	color: #333;
+	padding: 11px 10px 11px 0;
+	text-decoration: none;
+	text-align:left;
+	width: 180px;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+}
+
+#main #menuContainer .menu li a:hover { 
+	font-weight:bold;
+	color: #FF8900;
+	background-color: #fbfbf9;
+}
