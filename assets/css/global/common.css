@@ -1,5 +1,0 @@
-/* INÍCIO DO COMMON */
-.valid_error { background-color: #feeeef; width: 250px; padding: 2px 5px 2px 5px; border: 1px #ffc0c0 solid; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; position: relative; }
-.valid_error:after, .valid_error:before { bottom: 100%; left: 15%; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; }
-.valid_error:after { border-color: rgba(136, 183, 213, 0); border-bottom-color: #ffc0c0; border-width: 1px; margin-left: -30px; }
-.valid_error:before { border-color: rgba(194, 225, 245, 0); border-bottom-color: #ffc0c0; border-width: 10px; margin-left: -36px; }
